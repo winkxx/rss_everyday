@@ -1,5 +1,6 @@
 name: RSS Everyday
 on: 
+  workflow_dispatch: # 手动触发
   schedule:
     - cron: '0 */4 * * *'
 #env:
